@@ -27,21 +27,18 @@ pip install -r requirements.txt
 ```sh
 Usage: python certify.py [OPTION] ...
 
--d, --delete Delete a domain from the db
+-d, --delete        Delete a domain from the db
+    --all           Clear the table or delete the db
 
---all Clear the table or delete the db
+-a, --add           Add a domain to the db
 
--a, --add Add a domain to the db
+-l, --list          List domains in db
+    --all           To print more details
 
--l, --list List domains in db
+-u, --update        Update expiry date
 
---all To print more details
-
--u, --update Update expiry date
-
--c, --create Create file
-
---pdf
+-c, --create        Create file
+    --pdf
 
 Example:
 
