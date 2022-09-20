@@ -110,7 +110,7 @@ Usage: python certify.py [OPTION] ...
 Example:
     python certify.py -c pdf
     python certify.py --delete google.com 443
-    python certify.py list
+    python certify.py --list
     """)
 
 def updatefunc():
