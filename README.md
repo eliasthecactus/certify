@@ -9,7 +9,6 @@
   </a>
   <img alt="Version: v1.0.0-alpha1" src="https://img.shields.io/badge/version-v1.0.0--alpha1-blue" />
   <img alt="License: MIT" https://img.shields.io/github/license/eliasthecactus/certify />
-  </a>-->
 </p>
 
 > 😋 A lightweight python CLI/WebGUI SSL-certificate checker with alert function
