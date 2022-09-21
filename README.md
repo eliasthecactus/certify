@@ -60,4 +60,4 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [elias](https://github.com/eliasthecactus)
+[Copyright](https://github.com/eliasthecactus/certify/blob/main/LICENSE) © 2022 [eliasthecactus](https://github.com/eliasthecactus)
