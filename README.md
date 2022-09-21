@@ -8,8 +8,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <img alt="Version: v1.0.0-alpha1" src="https://img.shields.io/badge/version-v1.0.0--alpha1-blue" />
-<!--  <a href="https://github.com/Kvaibhav01/Forkify-JS/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/Kvaibhav01/forkify" />
+  <img alt="License: MIT" https://img.shields.io/github/license/eliasthecactus/certify />
   </a>-->
 </p>
 
