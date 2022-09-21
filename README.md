@@ -1,5 +1,5 @@
 
-<h1 align="center" style="font-size:4rem;">certify</h1>
+<h1 align="center">certify</h1>
 <p>
   <a href="https://github.com/Kvaibhav01/Forkify-JS#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-no-brightgreen.svg" />
