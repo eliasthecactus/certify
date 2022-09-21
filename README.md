@@ -46,7 +46,6 @@ python certify.py --list
 
 👤 **elias**
 
-* Linkedin: https://linkedin.com/in/elias-frehner
 * Instagram: [@eliasthecactus](https://instagram.com/eliasthecactus)
 * Github: [@eliasthecactus](https://github.com/eliasthecactus)
 
