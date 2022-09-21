@@ -1,7 +1,7 @@
 
 <h1 align="left">certify</h1>
 <p>
-  <a href="https://github.com/Kvaibhav01/Forkify-JS#readme" target="_blank">
+  <a href="https://github.com/eliasthecactus/certify#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-no-brightgreen.svg" />
   </a>
   <a href="https://github.com/eliasthecactus/certify/graphs/commit-activity" target="_blank">
