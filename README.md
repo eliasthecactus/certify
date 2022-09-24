@@ -43,7 +43,7 @@ python certify.py --list
 
 
 ## 📃 ToDo
-- [x] full list and small list
+- [x] full list and simple list
 - [ ] Server mode
 - [ ] PDF generator
 - [ ] get data as json
