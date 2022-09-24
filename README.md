@@ -61,3 +61,10 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 [Copyright](https://github.com/eliasthecactus/certify/blob/main/LICENSE) © 2022 [eliasthecactus](https://github.com/eliasthecactus)
+
+## ToDo
+- [x] full list and small list
+- [ ] Server mode
+- [ ] PDF generator
+- [ ] get data as json
+- [ ] get specific value
