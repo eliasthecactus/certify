@@ -13,7 +13,7 @@
   </a>
 </p>
 
-> 😋 A lightweight python CLI/WebGUI SSL-certificate checker with alert function
+> 😋 A lightweight python CLI/WebGUI SSL-certificate expire checker with alert function
 
 ## Install
 ```sh
