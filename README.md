@@ -16,7 +16,6 @@
 > 😋 A lightweight python CLI/WebGUI SSL-certificate checker with alert function
 
 ## Install
-
 ```sh
 git clone https://github.com/eliasthecactus/certify.git
 cd certify/
@@ -24,7 +23,6 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
 ```sh
 Usage: python certify.py [OPTION] ...
 
@@ -43,24 +41,6 @@ python certify.py --delete google.com 443
 python certify.py --list
 ```
 
-## Author
-
-👤 **elias**
-
-* Instagram: [@eliasthecactus](https://instagram.com/eliasthecactus)
-* Github: [@eliasthecactus](https://github.com/eliasthecactus)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/eliasthecactus/certify/issues).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-[Copyright](https://github.com/eliasthecactus/certify/blob/main/LICENSE) © 2022 [eliasthecactus](https://github.com/eliasthecactus)
 
 ## 📃 ToDo
 - [x] full list and small list
@@ -68,3 +48,21 @@ Give a ⭐️ if this project helped you!
 - [ ] PDF generator
 - [ ] get data as json
 - [ ] get specific value
+
+
+## Author
+👤 **elias**
+* Instagram: [@eliasthecactus](https://instagram.com/eliasthecactus)
+* Github: [@eliasthecactus](https://github.com/eliasthecactus)
+
+
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/eliasthecactus/certify/issues).
+
+
+## Show your support
+Give a ⭐️ if this project helped you!
+
+
+## 📝 License
+[Copyright](https://github.com/eliasthecactus/certify/blob/main/LICENSE) © 2022 [eliasthecactus](https://github.com/eliasthecactus)
