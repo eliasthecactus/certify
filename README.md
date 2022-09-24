@@ -62,7 +62,7 @@ Give a ⭐️ if this project helped you!
 
 [Copyright](https://github.com/eliasthecactus/certify/blob/main/LICENSE) © 2022 [eliasthecactus](https://github.com/eliasthecactus)
 
-## ToDo
+## 📃 ToDo
 - [x] full list and small list
 - [ ] Server mode
 - [ ] PDF generator
