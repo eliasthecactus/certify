@@ -18,11 +18,9 @@ class ConsoleColor:
     PURPLE = '\033[95m'
     CYAN = '\033[96m'
     GRAY = '\033[97m'
-
     # Style
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
     # BackgroundColor
     BgBLACK = '\033[40m'
     BgRED = '\033[41m'
@@ -32,10 +30,11 @@ class ConsoleColor:
     BgPURPLE = '\033[45m'
     BgCYAN = '\033[46m'
     BgGRAY = '\033[47m'
-
     # End
     END = '\033[0m'
 
+
+printit = False
 
 if platform.system() == 'Windows':
     clear = lambda: os.system('cls')
@@ -104,8 +103,8 @@ Usage: python certify.py [OPTION] ...
     -l, --list              List domains in db
             --all           To print more details
     -u, --update            Update expiry date
-    -c, --create            Create file
-            --pdf
+    -c, --create            Create pdf
+    -s, --server            Start server-mode on localhost
 
 Example:
     python certify.py -c pdf
@@ -234,13 +233,16 @@ def listfunc():
             x_notafter = str(x[4])
             if x_notafter == "error":
                 x_daysleft = "error"
+            elif x_notafter == "n/a":
+                x_daysleft = "please update the db"
             else:
                 x_daysleft = (datetime.datetime.fromtimestamp(float(x_notafter)) - datetime.datetime.today()).days
                 if x_daysleft < 50:
                     x_daysleft = ConsoleColor.RED + str(x_daysleft) + ConsoleColor.END
             table.add_row([x_domain + ":" + x_port, x_daysleft])
         printLogo()
-        print(table)
+        if printit == True:
+            print(table)
 
     def printAdvanced():
         table.field_names = ["Domain", "Port", "Not-Before (unix-timestamp)", "Not-After (unix-timestamp)", "Ping"]
@@ -263,11 +265,15 @@ def listfunc():
         printSimple()
 
 def serverfunc():
-    pass
+    continue2 = True
+    while continue2 == True:
+        updatefunc()
+        print("just updated. next update in 30min")
+        time.sleep(1800)
 
-def createfunc():
-    clear()
-    pass
+
+
+
 
 
 
@@ -290,9 +296,10 @@ elif sys.argv[1] == "--add" or sys.argv[1] == "-a":
 elif sys.argv[1] == "--delete" or sys.argv[1] == "-d":
     deletefunc()
 elif sys.argv[1] == "--list" or sys.argv[1] == "-l":
+    printit = True
     listfunc()
-elif sys.argv[1] == "--create" or sys.argv[1] == "-c":
-    createfunc()
+elif sys.argv[1] == "--server" or sys.argv[1] == "-s":
+    serverfunc()
 elif sys.argv[1] == "--create" or sys.argv[1] == "-c":
     serverfunc()
 elif sys.argv[1] == "--help" or sys.argv[1] == "-h":
